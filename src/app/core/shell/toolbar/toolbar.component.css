@@ -5,6 +5,10 @@
   background: dodgerblue;
 }
 
+.mat-icon-button {
+  background: transparent;
+}
+
 img {
   width: 32px;
   height: 32px;
