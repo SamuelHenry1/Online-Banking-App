@@ -1,0 +1,24 @@
+::ng-deep.mat-paginator-page-size {
+  align-items: center !important;
+}
+
+::ng-deep.mat-paginator-page-size-label {
+  margin-right: 1rem !important;
+}
+
+::ng-deep.mat-paginator-page-size-select {
+  margin: 0rem 0rem 0rem 0rem !important;
+}
+
+::ng-deep.mat-form-field-flex {
+  padding-top: 0rem !important;
+}
+
+::ng-deep.mat-select-panel {
+  background-color: white;
+  border: 1px solid black;
+}
+
+::ng-deep.mat-option {
+  padding: 0 4px !important;
+}

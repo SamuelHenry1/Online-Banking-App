@@ -9,7 +9,6 @@ import { IconsModule } from "../shared/icons.module";
 import { SavingsAccountsListComponent } from "./savings-accounts-list/savings-accounts-list.component";
 import { LoanAccountsListComponent } from "./loan-accounts-list/loan-accounts-list.component";
 import { ShareAccountsListComponent } from "./share-accounts-list/share-accounts-list.component";
-import { TestTabComponent } from "./test-tab/test-tab.component";
 
 @NgModule({
   declarations: [
@@ -20,6 +19,6 @@ import { TestTabComponent } from "./test-tab/test-tab.component";
     LoanAccountsListComponent,
     ShareAccountsListComponent,
   ],
-  imports: [SharedModule, AccountsRoutingModule, IconsModule, TestTabComponent],
+  imports: [SharedModule, AccountsRoutingModule, IconsModule],
 })
 export class AccountsModule {}
